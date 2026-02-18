@@ -1,11 +1,14 @@
+import {useNavigate} from 'react-router-dom';
 import classes from './Modal.module.css';
 
 function Modal(props) {
+  const navigate = useNavigate();
+
   return (
     <>
       <div
         className={classes.backdrop}
-        onClick={() => props.setModalIsVisible(false)}
+        onClick={() => navigate('..')}
       />
       <dialog open={true} className={classes.modal}>
         {props.children}
