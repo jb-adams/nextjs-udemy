@@ -15,13 +15,21 @@ NextJS course on Udemy
 
 ## Commands
 
-* run `react-crash-course`
+run `05-onwards-foodies-starting-project` (main project)
+
+```
+cd 05-onwards-foodies-starting-project
+npm run dev
+```
+
+
+run `react-crash-course`
 ```
 cd react-crash-course
 npm run dev
 ```
 
-* run `react-crash-course-dummy-backend`
+run `react-crash-course-dummy-backend`
 ```
 cd react-crash-course-dummy-backend
 npm start
